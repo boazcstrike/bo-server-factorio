@@ -1,0 +1,13 @@
+[0;1;32m●[0m factorio.service - Factorio Server
+   Loaded: loaded (/etc/systemd/system/factorio.service; disabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Sun 2019-02-10 07:46:07 UTC; 15s ago
+  Process: 5028 ExecStart=/opt/factorio-init/factorio start (code=exited, status=0/SUCCESS)
+ Main PID: 5057 (factorio)
+    Tasks: 12 (limit: 4915)
+   CGroup: /system.slice/factorio.service
+           ├─5056 tail -f /opt/factorio/bin/x64/../../server.fifo
+           └─5057 /opt/factorio/bin/x64/factorio --config /opt/factorio/config/config.ini --port 34197 --start-server-load-latest --server-settings /opt/factorio/data/server-settings.json
+
+Feb 10 07:46:07 instance-1 systemd[1]: Starting Factorio Server...
+Feb 10 07:46:07 instance-1 factorio[5028]: Started Factorio, please see log for details
+Feb 10 07:46:07 instance-1 systemd[1]: Started Factorio Server.

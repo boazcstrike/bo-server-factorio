@@ -1,0 +1,59 @@
+   0.000 2019-02-10 07:46:07; Factorio 0.16.51 (build 36654, linux64, headless)
+   0.047 Operating system: Linux (Ubuntu 18.04)
+   0.047 Program arguments: "/opt/factorio/bin/x64/factorio" "--config" "/opt/factorio/config/config.ini" "--port" "34197" "--start-server-load-latest" "--server-settings" "/opt/factorio/data/server-settings.json" 
+   0.047 Read data path: /opt/factorio/data
+   0.047 Write data path: /opt/factorio [48129/49446MB]
+   0.047 Binaries path: /opt/factorio/bin
+   0.055 System info: [CPU:            Intel(R) Xeon(R) CPU @ 2.30GHz, 4 cores, RAM: 15032 MB]
+   0.055 Environment: DISPLAY=<unset>, WAYLAND_DISPLAY=<unset>
+   0.055 Running in headless mode
+   0.058 Loading mod core 0.0.0 (data.lua)
+   0.070 Loading mod base 0.16.51 (data.lua)
+   0.198 Loading mod base 0.16.51 (data-updates.lua)
+   0.245 Checksum for core: 840319042
+   0.245 Checksum of base: 3323233190
+   0.354 Info PlayerData.cpp:65: Local player-data.json available, timestamp 1549783843
+   0.354 Info PlayerData.cpp:72: Cloud player-data.json unavailable
+   0.355 Custom inputs active: 0
+   0.355 Factorio initialised
+   0.356 Info HttpSharedState.cpp:54: Downloading https://auth.factorio.com/api-login?api_version=2
+   0.770 Info HttpSharedState.cpp:145: Status code: 200
+   0.770 Info AuthServerConnector.cpp:172: Got token from auth server for username(boazcstrike).
+   0.771 Info ServerSynchronizer.cpp:29: nextHeartbeatSequenceNumber(0) initialized Synchronizer nextTickClosureTick(0).
+   0.771 Info ServerMultiplayerManager.cpp:699: mapTick(4294967295) changing state from(Ready) to(PreparedToHostGame)
+   0.771 Info ServerMultiplayerManager.cpp:699: mapTick(4294967295) changing state from(PreparedToHostGame) to(CreatingGame)
+   0.771 Loading map /opt/factorio/saves/server-save.zip: 455071 bytes.
+   0.782 Loading Level.dat: 786994 bytes.
+   0.786 Info Scenario.cpp:136: Map version 0.16.51-0
+   0.821 Loading script.dat: 176 bytes.
+   0.823 Checksum for script /opt/factorio/temp/currently-playing/control.lua: 950616531
+   0.824 Info UDPSocket.cpp:27: Opening socket at (IP ADDR:({0.0.0.0:34197}))
+   0.824 Hosting game at IP ADDR:({0.0.0.0:34197})
+   0.824 Info HttpSharedState.cpp:54: Downloading https://auth.factorio.com/generate-server-padlock-2
+   0.841 Info HttpSharedState.cpp:145: Status code: 200
+   0.841 Info AuthServerConnector.cpp:109: Obtained serverPadlock for serverHash (R4d1tfgFQmC68IAe6pR0sbrNhnu2zlkH) from the auth server.
+   0.841 Info ServerMultiplayerManager.cpp:699: mapTick(0) changing state from(CreatingGame) to(InGame)
+   0.842 Info ServerRouter.cpp:596: Asking pingpong servers (pingpong1.factorio.com:34197, pingpong2.factorio.com:34197) for own address
+   0.874 Info UDPSocket.cpp:39: Opening socket for broadcast
+   0.980 Info ServerRouter.cpp:491: Own address is IP ADDR:({35.229.29.58:34197})
+   1.173 Info MatchingServer.cpp:86: Matching server game `4331047` has been created.
+   1.182 Info ServerMultiplayerManager.cpp:628: Matching server connection resumed
+ 611.290 Received SIGTERM, shutting down
+ 611.290 Info MainLoop.cpp:357: Saving map as /opt/factorio/saves/server-save.zip
+ 611.377 Info MainLoop.cpp:368: Saving progress: 0.277008%
+ 611.386 Info MainLoop.cpp:368: Saving progress: 100.000000%
+ 611.439 Info ServerMultiplayerManager.cpp:118: Disconnecting multiplayer connection.
+ 611.439 Info ServerMultiplayerManager.cpp:699: mapTick(0) changing state from(InGame) to(DisconnectingScheduled)
+ 611.472 Info ServerMultiplayerManager.cpp:699: mapTick(0) changing state from(DisconnectingScheduled) to(Disconnecting)
+ 611.506 Info ServerMultiplayerManager.cpp:699: mapTick(0) changing state from(Disconnecting) to(Disconnected)
+ 611.506 Info ServerMultiplayerManager.cpp:142: Quitting multiplayer connection.
+ 611.506 Info ServerMultiplayerManager.cpp:699: mapTick(0) changing state from(Disconnected) to(Closed)
+ 611.699 Info HttpSharedState.cpp:54: Downloading https://multiplayer.factorio.com/remove-game/4331047
+ 611.727 Info HttpSharedState.cpp:145: Status code: 200
+ 611.727 Info UDPSocket.cpp:206: Closing socket
+ 611.727 Info UDPSocket.cpp:236: Socket closed
+ 611.727 Info UDPSocket.cpp:206: Closing socket
+ 611.727 Info GlobalContext.cpp:696: Waiting for child processes to exit: 
+ 611.827 Info UDPSocket.cpp:206: Closing socket
+ 611.828 Info UDPSocket.cpp:236: Socket closed
+ 611.843 Goodbye

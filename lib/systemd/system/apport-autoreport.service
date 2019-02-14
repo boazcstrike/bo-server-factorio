@@ -1,7 +1,0 @@
-[Unit]
-Description=Process error reports when automatic reporting is enabled
-ConditionPathExists=/var/lib/apport/autoreport
-
-[Service]
-Type=oneshot
-ExecStart=/usr/share/apport/whoopsie-upload-all

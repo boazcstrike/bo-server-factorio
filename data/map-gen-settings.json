@@ -11,14 +11,14 @@
 
   "autoplace_controls":
   {
-    "coal": {"frequency": "normal", "size": "very-high", "richness": "very-high"},
-    "stone": {"frequency": "low", "size": "normal", "richness": "very-high"},
-    "copper-ore": {"frequency": "normal", "size": "high","richness": "very-high"},
-    "iron-ore": {"frequency": "normal", "size": "very-high", "richness": "very-high"},
-    "uranium-ore": {"frequency": "normal", "size": "very-high", "richness": "very-high"},
-    "crude-oil": {"frequency": "normal", "size": "high", "richness": "very-high"},
+    "coal": {"frequency": "very-low", "size": "very-high", "richness": "very-high"},
+    "stone": {"frequency": "very-low", "size": "normal", "richness": "very-high"},
+    "copper-ore": {"frequency": "very-low", "size": "high","richness": "very-high"},
+    "iron-ore": {"frequency": "very-low", "size": "very-high", "richness": "very-high"},
+    "uranium-ore": {"frequency": "very-low", "size": "very-high", "richness": "very-high"},
+    "crude-oil": {"frequency": "very-low", "size": "high", "richness": "very-high"},
     "trees": {"frequency": "normal", "size": "normal", "richness": "normal"},
-    "enemy-base": {"frequency": "very-low", "size": "normal", "richness": "low"},
+    "enemy-base": {"frequency": "normal", "size": "normal", "richness": "very-low"},
     "grass": {"frequency": "normal", "size": "normal", "richness": "normal"},
     "desert": {"frequency": "normal", "size": "normal", "richness": "normal"},
     "dirt": {"frequency": "normal", "size": "normal", "richness": "normal"},

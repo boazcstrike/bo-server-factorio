@@ -6,23 +6,23 @@
   "water": "normal",
   "width": 0,
   "height": 0,
-  "starting_area": "normal",
+  "starting_area": "very-high",
   "peaceful_mode": false,
 
   "autoplace_controls":
   {
-    "coal": {"frequency": "low", "size": "very-high", "richness": "very-high"},
+    "coal": {"frequency": "normal", "size": "very-high", "richness": "very-high"},
     "stone": {"frequency": "low", "size": "normal", "richness": "very-high"},
-    "copper-ore": {"frequency": "low", "size": "high","richness": "very-high"},
-    "iron-ore": {"frequency": "low", "size": "very-high", "richness": "very-high"},
-    "uranium-ore": {"frequency": "low", "size": "very-high", "richness": "very-high"},
-    "crude-oil": {"frequency": "low", "size": "high", "richness": "very-high"},
-    "trees": {"frequency": "low", "size": "normal", "richness": "normal"},
-    "enemy-base": {"frequency": "very-low", "size": "low", "richness": "low"},
-    "grass": {"frequency": "low", "size": "normal", "richness": "normal"},
-    "desert": {"frequency": "low", "size": "normal", "richness": "normal"},
-    "dirt": {"frequency": "low", "size": "normal", "richness": "normal"},
-    "sand": {"frequency": "low", "size": "normal", "richness": "normal"}
+    "copper-ore": {"frequency": "normal", "size": "high","richness": "very-high"},
+    "iron-ore": {"frequency": "normal", "size": "very-high", "richness": "very-high"},
+    "uranium-ore": {"frequency": "normal", "size": "very-high", "richness": "very-high"},
+    "crude-oil": {"frequency": "normal", "size": "high", "richness": "very-high"},
+    "trees": {"frequency": "normal", "size": "normal", "richness": "normal"},
+    "enemy-base": {"frequency": "very-low", "size": "normal", "richness": "low"},
+    "grass": {"frequency": "normal", "size": "normal", "richness": "normal"},
+    "desert": {"frequency": "normal", "size": "normal", "richness": "normal"},
+    "dirt": {"frequency": "normal", "size": "normal", "richness": "normal"},
+    "sand": {"frequency": "normal", "size": "normal", "richness": "normal"}
   },
   "cliff_settings":
   {

@@ -31,7 +31,7 @@
   "enemy_expansion":
   {
     "enabled": true,
-    "min_base_spacing": 3,
+    "min_base_spacing": 5,
     "max_expansion_distance": 7,
     "friendly_base_influence_radius": 2,
     "enemy_building_influence_radius": 2,
@@ -42,8 +42,8 @@
     "max_colliding_tiles_coefficient": 0.9,
     "settler_group_min_size": 5,
     "settler_group_max_size": 20,
-    "min_expansion_cooldown": 14400,
-    "max_expansion_cooldown": 216000
+    "min_expansion_cooldown": 100400,
+    "max_expansion_cooldown": 280000
   },
   "unit_group":
   {

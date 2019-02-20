@@ -2,10 +2,10 @@
 # boazcstrike's server for factorio on gcloud
 Please refer to the factorio init script from [Bisa](https://raw.githubusercontent.com/Bisa/factorio-init)
 
-# Factorio Init Script
+## Factorio Init Script
 A factorio init script for linux
 
-# Dependencies
+## Dependencies
  Among others:
  - cURL
 
@@ -89,6 +89,10 @@ https://forums.factorio.com/viewtopic.php?t=54654#p324493
  ```
 
 # Thank You
+
+- [Bisa](https://github.com/Bisa/factorio-init/)
+- [Wube](https://www.factorio.com/team)
+
 - To all who find this script useful in one way or the other
 - A big thank you to [Wube](https://www.factorio.com/team) for making [Factorio](https://www.factorio.com/)
 - A special thanks to NoPantsMcDance, Oxyd, HanziQ, TheFactorioCube and all other frequent users of the [#factorio](irc://irc.esper.net/#factorio) channel @ esper.net
@@ -96,7 +100,4 @@ https://forums.factorio.com/viewtopic.php?t=54654#p324493
 - At last, but not least; Thank you to all [contributors](https://github.com/Bisa/factorio-init/graphs/contributors) and users posting [issues](https://github.com/Bisa/factorio-init/issues) in my [github](https://github.com/Bisa/factorio-init/) project or on the [factorio forums](https://forums.factorio.com/viewtopic.php?f=133&t=13874)
 
 You are all a great source of motivation, thank you.
-
-# License
-This code is realeased with the MIT license, see the LICENSE file.
 
